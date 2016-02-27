@@ -215,6 +215,24 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int buttonStyleSmall=0x7f010019;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int click_remove_id=0x7f010082;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int collapsed_height=0x7f010072;
         /**  Specifies a layout for custom navigation. Overrides navigationMode. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -245,10 +263,54 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int dividerVertical=0x7f010029;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int drag_enabled=0x7f01007c;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int drag_handle_id=0x7f010080;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int drag_scroll_start=0x7f010073;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>onDown</code></td><td>0</td><td></td></tr>
+<tr><td><code>onMove</code></td><td>1</td><td></td></tr>
+<tr><td><code>onLongPress</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static int drag_start_mode=0x7f01007f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int dropDownListViewStyle=0x7f01002d;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int drop_animation_duration=0x7f01007b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -285,6 +347,31 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int fadeEnabled=0x7f01005b;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int fling_handle_id=0x7f010081;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int float_alpha=0x7f010078;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int float_background_color=0x7f010075;
         /**  Default background for the menu header. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -410,6 +497,14 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int logo=0x7f01003f;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int max_drag_scroll_speed=0x7f010074;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -597,6 +692,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int ptrSubHeaderTextAppearance=0x7f01006a;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int remove_animation_duration=0x7f01007a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int remove_enabled=0x7f01007e;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>clickRemove</code></td><td>0</td><td></td></tr>
+<tr><td><code>flingRemove</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int remove_mode=0x7f010076;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -623,6 +745,22 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int shadowWidth=0x7f01005a;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int slide_shuffle_speed=0x7f010079;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int sort_enabled=0x7f01007d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -728,6 +866,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static int touchModeBehind=0x7f010058;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int track_drag_sort=0x7f010077;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int use_default_controller=0x7f010083;
         /**  Default vertical divider between menu items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1049,73 +1203,79 @@ containing a value of this type.
         public static int indicator_bg_top=0x7f02005a;
     }
     public static final class id {
-        public static int abs__action_bar=0x7f090034;
-        public static int abs__action_bar_container=0x7f090033;
-        public static int abs__action_bar_subtitle=0x7f090023;
-        public static int abs__action_bar_title=0x7f090022;
-        public static int abs__action_context_bar=0x7f090035;
+        public static int abs__action_bar=0x7f09003a;
+        public static int abs__action_bar_container=0x7f090039;
+        public static int abs__action_bar_subtitle=0x7f090029;
+        public static int abs__action_bar_title=0x7f090028;
+        public static int abs__action_context_bar=0x7f09003b;
         public static int abs__action_menu_divider=0x7f090002;
         public static int abs__action_menu_presenter=0x7f090003;
-        public static int abs__action_mode_bar=0x7f090038;
-        public static int abs__action_mode_bar_stub=0x7f090037;
-        public static int abs__action_mode_close_button=0x7f090026;
-        public static int abs__activity_chooser_view_content=0x7f090027;
-        public static int abs__checkbox=0x7f090030;
-        public static int abs__content=0x7f09002f;
-        public static int abs__default_activity_button=0x7f09002a;
-        public static int abs__expand_activities_button=0x7f090028;
+        public static int abs__action_mode_bar=0x7f09003e;
+        public static int abs__action_mode_bar_stub=0x7f09003d;
+        public static int abs__action_mode_close_button=0x7f09002c;
+        public static int abs__activity_chooser_view_content=0x7f09002d;
+        public static int abs__checkbox=0x7f090036;
+        public static int abs__content=0x7f090035;
+        public static int abs__default_activity_button=0x7f090030;
+        public static int abs__expand_activities_button=0x7f09002e;
         public static int abs__home=0x7f090000;
-        public static int abs__icon=0x7f09002c;
-        public static int abs__image=0x7f090029;
-        public static int abs__imageButton=0x7f090024;
-        public static int abs__list_item=0x7f09002b;
+        public static int abs__icon=0x7f090032;
+        public static int abs__image=0x7f09002f;
+        public static int abs__imageButton=0x7f09002a;
+        public static int abs__list_item=0x7f090031;
         public static int abs__progress_circular=0x7f090004;
         public static int abs__progress_horizontal=0x7f090005;
-        public static int abs__radio=0x7f090032;
-        public static int abs__shortcut=0x7f090031;
-        public static int abs__split_action_bar=0x7f090036;
-        public static int abs__textButton=0x7f090025;
-        public static int abs__title=0x7f09002d;
-        public static int abs__titleDivider=0x7f09002e;
+        public static int abs__radio=0x7f090038;
+        public static int abs__shortcut=0x7f090037;
+        public static int abs__split_action_bar=0x7f09003c;
+        public static int abs__textButton=0x7f09002b;
+        public static int abs__title=0x7f090033;
+        public static int abs__titleDivider=0x7f090034;
         public static int abs__up=0x7f090001;
-        public static int both=0x7f090019;
-        public static int disableHome=0x7f09000e;
-        public static int disabled=0x7f09001a;
-        public static int fl_inner=0x7f090039;
-        public static int flip=0x7f090020;
-        public static int fullscreen=0x7f090016;
+        public static int both=0x7f09001a;
+        public static int clickRemove=0x7f090023;
+        public static int disableHome=0x7f09000f;
+        public static int disabled=0x7f09001b;
+        public static int fl_inner=0x7f09003f;
+        public static int flingRemove=0x7f090024;
+        public static int flip=0x7f090021;
+        public static int fullscreen=0x7f090017;
         /**  pulltorefresh 
          */
         public static int gridview=0x7f090007;
-        public static int homeAsUp=0x7f09000f;
-        public static int left=0x7f090014;
-        public static int listMode=0x7f09000b;
-        public static int manualOnly=0x7f09001b;
-        public static int margin=0x7f090017;
-        public static int none=0x7f090018;
-        public static int normal=0x7f09000c;
-        public static int pullDownFromTop=0x7f09001c;
-        public static int pullFromEnd=0x7f09001d;
-        public static int pullFromStart=0x7f09001e;
-        public static int pullUpFromBottom=0x7f09001f;
-        public static int pull_to_refresh_image=0x7f09003a;
-        public static int pull_to_refresh_progress=0x7f09003b;
-        public static int pull_to_refresh_sub_text=0x7f09003d;
-        public static int pull_to_refresh_text=0x7f09003c;
-        public static int right=0x7f090015;
-        public static int rotate=0x7f090021;
+        public static int homeAsUp=0x7f090010;
+        public static int left=0x7f090015;
+        public static int listMode=0x7f09000c;
+        public static int manualOnly=0x7f09001c;
+        public static int margin=0x7f090018;
+        public static int none=0x7f090019;
+        public static int normal=0x7f09000d;
+        public static int onDown=0x7f090025;
+        public static int onLongPress=0x7f090026;
+        public static int onMove=0x7f090027;
+        public static int pullDownFromTop=0x7f09001d;
+        public static int pullFromEnd=0x7f09001e;
+        public static int pullFromStart=0x7f09001f;
+        public static int pullUpFromBottom=0x7f090020;
+        public static int pull_to_refresh_image=0x7f090040;
+        public static int pull_to_refresh_progress=0x7f090041;
+        public static int pull_to_refresh_sub_text=0x7f090043;
+        public static int pull_to_refresh_text=0x7f090042;
+        public static int right=0x7f090016;
+        public static int rotate=0x7f090022;
         public static int scrollview=0x7f090009;
         /**  slidingmenu 
          */
         public static int selected_view=0x7f090006;
-        public static int showCustom=0x7f090010;
-        public static int showHome=0x7f090011;
-        public static int showTitle=0x7f090012;
-        public static int slidingmenumain=0x7f09003e;
-        public static int tabMode=0x7f09000d;
-        public static int useLogo=0x7f090013;
+        public static int showCustom=0x7f090011;
+        public static int showHome=0x7f090012;
+        public static int showTitle=0x7f090013;
+        public static int slidingmenumain=0x7f090044;
+        public static int tabMode=0x7f09000e;
+        public static int useLogo=0x7f090014;
+        public static int viewpager=0x7f09000a;
         public static int webview=0x7f090008;
-        public static int wrap_content=0x7f09000a;
+        public static int wrap_content=0x7f09000b;
     }
     public static final class integer {
         public static int abs__max_action_buttons=0x7f080000;
@@ -1141,11 +1301,12 @@ containing a value of this type.
         public static int abs__screen_action_bar_overlay=0x7f030011;
         public static int abs__screen_simple=0x7f030012;
         public static int abs__screen_simple_overlay_action_mode=0x7f030013;
-        public static int pull_to_refresh_header_horizontal=0x7f030014;
-        public static int pull_to_refresh_header_vertical=0x7f030015;
-        public static int sherlock_spinner_dropdown_item=0x7f030016;
-        public static int sherlock_spinner_item=0x7f030017;
-        public static int slidingmenumain=0x7f030018;
+        public static int need_this_for_maven=0x7f030014;
+        public static int pull_to_refresh_header_horizontal=0x7f030015;
+        public static int pull_to_refresh_header_vertical=0x7f030016;
+        public static int sherlock_spinner_dropdown_item=0x7f030017;
+        public static int sherlock_spinner_item=0x7f030018;
+        public static int slidingmenumain=0x7f030019;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1306,6 +1467,319 @@ containing a value of this type.
         public static int Widget_Sherlock_TextView_SpinnerItem=0x7f0b0032;
     }
     public static final class styleable {
+        /** Attributes that can be used with a DragSortListView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #DragSortListView_click_remove_id club.xlxk.libs:click_remove_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_collapsed_height club.xlxk.libs:collapsed_height}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_drag_enabled club.xlxk.libs:drag_enabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_drag_handle_id club.xlxk.libs:drag_handle_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_drag_scroll_start club.xlxk.libs:drag_scroll_start}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_drag_start_mode club.xlxk.libs:drag_start_mode}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_drop_animation_duration club.xlxk.libs:drop_animation_duration}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_fling_handle_id club.xlxk.libs:fling_handle_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_float_alpha club.xlxk.libs:float_alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_float_background_color club.xlxk.libs:float_background_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_max_drag_scroll_speed club.xlxk.libs:max_drag_scroll_speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_remove_animation_duration club.xlxk.libs:remove_animation_duration}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_remove_enabled club.xlxk.libs:remove_enabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_remove_mode club.xlxk.libs:remove_mode}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_slide_shuffle_speed club.xlxk.libs:slide_shuffle_speed}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_sort_enabled club.xlxk.libs:sort_enabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_track_drag_sort club.xlxk.libs:track_drag_sort}</code></td><td></td></tr>
+           <tr><td><code>{@link #DragSortListView_use_default_controller club.xlxk.libs:use_default_controller}</code></td><td></td></tr>
+           </table>
+           @see #DragSortListView_click_remove_id
+           @see #DragSortListView_collapsed_height
+           @see #DragSortListView_drag_enabled
+           @see #DragSortListView_drag_handle_id
+           @see #DragSortListView_drag_scroll_start
+           @see #DragSortListView_drag_start_mode
+           @see #DragSortListView_drop_animation_duration
+           @see #DragSortListView_fling_handle_id
+           @see #DragSortListView_float_alpha
+           @see #DragSortListView_float_background_color
+           @see #DragSortListView_max_drag_scroll_speed
+           @see #DragSortListView_remove_animation_duration
+           @see #DragSortListView_remove_enabled
+           @see #DragSortListView_remove_mode
+           @see #DragSortListView_slide_shuffle_speed
+           @see #DragSortListView_sort_enabled
+           @see #DragSortListView_track_drag_sort
+           @see #DragSortListView_use_default_controller
+         */
+        public static final int[] DragSortListView = {
+            0x7f010072, 0x7f010073, 0x7f010074, 0x7f010075,
+            0x7f010076, 0x7f010077, 0x7f010078, 0x7f010079,
+            0x7f01007a, 0x7f01007b, 0x7f01007c, 0x7f01007d,
+            0x7f01007e, 0x7f01007f, 0x7f010080, 0x7f010081,
+            0x7f010082, 0x7f010083
+        };
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#click_remove_id}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:click_remove_id
+        */
+        public static int DragSortListView_click_remove_id = 16;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#collapsed_height}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:collapsed_height
+        */
+        public static int DragSortListView_collapsed_height = 0;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#drag_enabled}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:drag_enabled
+        */
+        public static int DragSortListView_drag_enabled = 10;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#drag_handle_id}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:drag_handle_id
+        */
+        public static int DragSortListView_drag_handle_id = 14;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#drag_scroll_start}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:drag_scroll_start
+        */
+        public static int DragSortListView_drag_scroll_start = 1;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#drag_start_mode}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>onDown</code></td><td>0</td><td></td></tr>
+<tr><td><code>onMove</code></td><td>1</td><td></td></tr>
+<tr><td><code>onLongPress</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name club.xlxk.libs:drag_start_mode
+        */
+        public static int DragSortListView_drag_start_mode = 13;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#drop_animation_duration}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:drop_animation_duration
+        */
+        public static int DragSortListView_drop_animation_duration = 9;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#fling_handle_id}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:fling_handle_id
+        */
+        public static int DragSortListView_fling_handle_id = 15;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#float_alpha}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:float_alpha
+        */
+        public static int DragSortListView_float_alpha = 6;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#float_background_color}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:float_background_color
+        */
+        public static int DragSortListView_float_background_color = 3;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#max_drag_scroll_speed}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:max_drag_scroll_speed
+        */
+        public static int DragSortListView_max_drag_scroll_speed = 2;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#remove_animation_duration}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:remove_animation_duration
+        */
+        public static int DragSortListView_remove_animation_duration = 8;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#remove_enabled}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:remove_enabled
+        */
+        public static int DragSortListView_remove_enabled = 12;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#remove_mode}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>clickRemove</code></td><td>0</td><td></td></tr>
+<tr><td><code>flingRemove</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name club.xlxk.libs:remove_mode
+        */
+        public static int DragSortListView_remove_mode = 4;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#slide_shuffle_speed}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:slide_shuffle_speed
+        */
+        public static int DragSortListView_slide_shuffle_speed = 7;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#sort_enabled}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:sort_enabled
+        */
+        public static int DragSortListView_sort_enabled = 11;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#track_drag_sort}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:track_drag_sort
+        */
+        public static int DragSortListView_track_drag_sort = 5;
+        /**
+          <p>This symbol is the offset where the {@link club.xlxk.libs.R.attr#use_default_controller}
+          attribute's value can be found in the {@link #DragSortListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name club.xlxk.libs:use_default_controller
+        */
+        public static int DragSortListView_use_default_controller = 17;
         /** Attributes that can be used with a PullToRefresh.
            <p>Includes the following attributes:</p>
            <table>
